@@ -13,14 +13,15 @@ actions and arguments via an A3C algorithm.
 
 
 ## Requirements
-- pysc2  
-Pysc2 is a learning environment for StarCraft II provided
-by DeepMind. You can follow the tutorial in [pysc2 repo](
-https://github.com/deepmind/pysc2) to install it.
-
+- pysc2
 - tensorflow
 - numpy
 - gflag
+
+Pysc2 is a learning environment for StarCraft II provided
+by DeepMind. You can follow the tutorial in [pysc2 repo](
+https://github.com/deepmind/pysc2) to install it. The other
+libraries can be easily installed by `pip`.
 
 
 ## Getting Started
@@ -43,9 +44,9 @@ python -m runRL --map=MoveToBeacon --training=False
 You will get the following results for different
 MoveToBeacon/CollectMineralShards/DefeatRoaches maps.
 
-<img src=images/MoveToBeacon.gif width="293px"/>
-<img src=images/CollectMineralShards.gif width="293px">
-<img src=images/DefeatRoaches.gif width="293px">
+| <img src=images/MoveToBeacon.gif width="293px"/>
+| <img src=images/CollectMineralShards.gif width="293px">
+| <img src=images/DefeatRoaches.gif width="293px">|
 
 ### Training
 
