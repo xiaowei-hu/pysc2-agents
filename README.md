@@ -27,7 +27,7 @@ to install it.
 Clone this repo:
 ```bash
 git clone https://github.com/xhujoy/pysc2-agents && cd pysc2-agents
-'''
+```
 
 ### Testing
 You may firstly download the pretrained model from 
