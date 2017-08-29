@@ -1,21 +1,19 @@
 <div align="center">
-  <img src=images/MoveToBeacon.gif width="250px"/>
-  <img src=images/CollectMineralShards.gif width="250px">
-  <img src=images/DefeatRoaches.gif width="250px">
+  <img src=images/MoveToBeacon2.gif width="270px"/>
+  <img src=images/CollectMineralShards2.gif width="270px">
+  <img src=images/DefeatRoaches2.gif width="270px">
 </div>
 
 
-# pysc2 agents
-This is a simple implementation of DeepMind's pysc2 RL agents. In this project, the agents are defined according to the original [paper](https://deepmind.com/documents/110/sc2le.pdf), which use all feature maps and structured information to predict both actions and arguments via an A3C algorithm.
+# PySC2 agents
+This is a simple implementation of DeepMind's PySC2 RL agents. In this project, the agents are defined according to the original [paper](https://deepmind.com/documents/110/sc2le.pdf), which use all feature maps and structured information to predict both actions and arguments via an A3C algorithm.
 
 
 ## Requirements
-- Pysc2 is a learning environment of StarCraft II provided by DeepMind. It provides an interface for RL agents to interact with StarCraft II, getting observations and sending actions. You can follow the tutorial in [pysc2 repo](https://github.com/deepmind/pysc2) to install it.
+- PySC2 is a learning environment of StarCraft II provided by DeepMind. It provides an interface for RL agents to interact with StarCraft II, getting observations and sending actions. You can follow the tutorial in [PySC2 repo](https://github.com/deepmind/pysc2) to install it.
 
-- Python packages might miss: numpy, gflag and tensorflow. If `pip` is set up on your system, these packages can be easily installed by running
+- Python packages might miss: tensorflow. If `pip` is set up on your system, it can be easily installed by running
 ```shell
-pip install numpy
-pip install python-gflag
 pip install tensorflow-gpu
 ```
 
@@ -73,6 +71,5 @@ python -m runRL --map=MoveToBeacon
 
 
 ## Future Releases
-- Improve performance.
 - Support full game.
 - Support supervised learning.
