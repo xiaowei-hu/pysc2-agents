@@ -125,7 +125,7 @@ class A3CAgent(object):
     target = np.argmax(spatial_action)
     target = [int(target // self.ssize), int(target % self.ssize)]
 
-    if True:
+    if False:
       print(actions.FUNCTIONS[act_id].name, target)
 
     # Epsilon greedy exploration
