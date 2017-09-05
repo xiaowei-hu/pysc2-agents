@@ -31,7 +31,7 @@ cd pysc2-agents
 
 - Test the pretrained model:
 ```shell
-python -m runRL --map=MoveToBeacon --training=False
+python -m main --map=MoveToBeacon --training=False
 ```
 
 - You will get the following results for different maps.
@@ -61,7 +61,7 @@ python -m runRL --map=MoveToBeacon --training=False
 ### Training
 Train a model by yourself:
 ```shell
-python -m runRL --map=MoveToBeacon
+python -m main --map=MoveToBeacon
 ```
 
 
