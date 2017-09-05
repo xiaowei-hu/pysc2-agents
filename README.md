@@ -1,7 +1,7 @@
 <div align="center">
-  <img src=images/MoveToBeacon2.gif width="270px"/>
-  <img src=images/CollectMineralShards2.gif width="270px">
-  <img src=images/DefeatRoaches2.gif width="270px">
+  <img src=images/MoveToBeacon.gif width="270px"/>
+  <img src=images/CollectMineralShards.gif width="270px">
+  <img src=images/DefeatRoaches.gif width="270px">
 </div>
 
 
@@ -46,14 +46,14 @@ python -m runRL --map=MoveToBeacon --training=False
   <tr>
     <td align="center">Mean Score</td>
     <td align="center">~25</td>
-    <td align="center">~57</td>
-    <td align="center">~56</td>
+    <td align="center">~62</td>
+    <td align="center">~87</td>
   </tr>
   <tr>
     <td align="center">Max Score</td>
     <td align="center">31</td>
-    <td align="center">88</td>
-    <td align="center">314</td>
+    <td align="center">97</td>
+    <td align="center">371</td>
   </tr>
 </table>
 
@@ -70,6 +70,4 @@ python -m runRL --map=MoveToBeacon
 - When train a model by yourself, you'd better to run several times and choose the best one. If you get better results than ours, it's grateful to share with us.
 
 
-## Future Releases
-- Support full game.
-- Support supervised learning.
+*This work was done when I was an intern at MSR Asia. Licensed under The MIT License.*
