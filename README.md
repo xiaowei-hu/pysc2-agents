@@ -27,7 +27,7 @@ cd pysc2-agents
 
 
 ### Testing
-- Download the pretrained model from [here](https://github.com/deepmind/pysc2) and extract them to `./snapshot/`.
+- Download the pretrained model from [here](https://drive.google.com/open?id=0B6TLO16TqWxpUjRsWWdsSEU3dFE) and extract them to `./snapshot/`.
 
 - Test the pretrained model:
 ```shell
