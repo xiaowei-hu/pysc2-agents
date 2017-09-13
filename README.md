@@ -70,4 +70,4 @@ python -m main --map=MoveToBeacon
 - When train a model by yourself, you'd better to run several times and choose the best one. If you get better results than ours, it's grateful to share with us.
 
 
-*This work was done when I was an intern at MSR Asia. Licensed under The MIT License.*
+*Licensed under The MIT License.*
