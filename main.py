@@ -69,7 +69,7 @@ if not os.path.exists(SNAPSHOT):
 
 def run_thread(agent, map_name, visualize):
   with sc2_env.SC2Env(
-    map_name,
+    map_name=map_name,
     agent_race=FLAGS.agent_race,
     bot_race=FLAGS.bot_race,
     difficulty=FLAGS.difficulty,
