@@ -8,12 +8,12 @@ import time
 import importlib
 import threading
 
+from absl import app
+from absl import flags
 from pysc2 import maps
 from pysc2.env import available_actions_printer
 from pysc2.env import sc2_env
 from pysc2.lib import stopwatch
-from pysc2.lib import app
-import gflags as flags
 import tensorflow as tf
 
 from run_loop import run_loop
@@ -25,8 +25,8 @@ flags.DEFINE_bool("training", True, "Whether to train agents.")
 flags.DEFINE_bool("continuation", False, "Continuously training.")
 flags.DEFINE_float("learning_rate", 5e-4, "Learning rate for training.")
 flags.DEFINE_float("discount", 0.99, "Discount rate for future rewards.")
-flags.DEFINE_integer("max_steps", 1e5, "Total steps for training.")
-flags.DEFINE_integer("snapshot_step", 1e3, "Step for snapshot.")
+flags.DEFINE_integer("max_steps", int(1e5), "Total steps for training.")
+flags.DEFINE_integer("snapshot_step", int(1e3), "Step for snapshot.")
 flags.DEFINE_string("snapshot_path", "./snapshot/", "Path for snapshot.")
 flags.DEFINE_string("log_path", "./log/", "Path for log.")
 flags.DEFINE_string("device", "0", "Device for training.")
@@ -155,4 +155,4 @@ def _main(unused_argv):
 
 
 if __name__ == "__main__":
-  app.really_start(_main)
+  app.run(_main)
